@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Exercice 3</title>
+</head>
+
+<body>
+    <script>
+        reponse = prompt("Comment t'appelles-tu ?", "<Entrez ici votre prénom>");
+        if (reponse == null) {
+            alert("Vous avez cliqué sur Annuler");
+        } else {
+            alert("Bonjour " + reponse + ", ça roule ?");
+        }
+    </script>
+</body>
+
+</html>
+
+
+
+<head>
+    <meta charset="utf-8">
+    <title>Exercice 1</title>
+    <script src="../function.js"></script>
+</head>
+
+<body>
+    <img src="images/image1.jpg" id="image1" />
+    <img src="images/image1.jpg" id="image1" onmouseover="changeExo1('images/image1_2.jpg')" onmouseout="changeExo1('images/image1.jpg')" />
+</body>
+
+</html>
+3 exo-js/exercice 2/index.html
+
+<head>
+    <meta charset="utf-8">
+    <title>Exercice 2</title>
+    <script src="../function.js"></script>
+</head>
+
+<body>
+    <form>
+        <label for="nom">Votre nom : </label><input type="text" name="nom" value="" id="nom" />
+        <label for="nom">Votre nom : </label><input type="text" name="nom" value="" id="nom" onfocusout="focusExo2()" />
+    </form>
+</body>
+
+</html>
+3 exo-js/exercice 3/index.html
+
+<head>
+    <meta charset="utf-8">
+    <title>Exercice 3</title>
+    <script src="../function.js"></script>
+</head>
+
+<body>
+    <form>
+        <label for="nom">Votre nom : </label><input type="text" name="nom" value="" id="nom" />
+        <label for="nom">Votre nom : </label><input type="text" name="nom" value="" id="nom" onkeyup="bindKey()" />
+    </form>
+</body>
+
+</html>
+5 exo-js/exercice 4/index.html
+
+<head>
+    <meta charset="utf-8">
+    <title>Exercice 4</title>
+    <script src="../function.js"></script>
+</head>
+
+<body>
+    <form>
+        <form id="form">
+            <label for="nom">Votre nom : </label><input type="text" name="nom" value="Doe" id="nom" />
+            <label for="prenom">Votre prenom : </label><input type="text" name="prenom" value="John" id="prenom" />
+            <label for="ville">Votre ville : </label><input type="text" name="ville" value="New York" id="ville" />
+            <button type="button" name="button">RAZ</button>
+            <button type="button" name="button" onclick="raz()">RAZ</button>
+        </form>
+</body>
+
+</html>
+11 exo-js/exercice 5/index.html
+
+<head>
+    <meta charset="utf-8">
+    <title>Exercice 5</title>
+    <script src="../function.js"></script>
+</head>
+
+<body>
+    <div class="conteneur">
+        <img src="images/image1.jpg" id="image1" />
+        <img src="images/image2.jpg" id="image2" />
+        <img src="images/image3.jpg" id="image3" />
+        <img src="images/image4.jpg" id="image4" />
+        <img src="images/image5.jpg" id="image5" />
+        <img src="images/image1.jpg" id="image1" onmouseover="changeExo5(this)" />
+        <img src="images/image2.jpg" id="image2" onmouseover="changeExo5(this)" />
+        <img src="images/image3.jpg" id="image3" onmouseover="changeExo5(this)" />
+        <img src="images/image4.jpg" id="image4" onmouseover="changeExo5(this)" />
+        <img src="images/image5.jpg" id="image5" onmouseover="changeExo5(this)" />
+    </div>
+</body>
+
+</html>
